@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background: rgb(0, 0, 68);
+}
+body{
+    height: 750px;
+    width: 750px;
+    background: white;
+    margin: auto;
+    margin-top: 15px;
+}
+header{
+    height: 250px;
+    width: 750px;
+    background: darkgoldenrod;
+}
+#banner{
+    width: 500px;
+    height: 250px;
+    background: black;
+    float: right;
+}
+#logo{
+    width: 250px;
+    height: 125px;
+    background: brown;
+}
+#buscador{
+    width: 250px;
+    height: 125px;
+    background: sandybrown;
+}
+nav{
+    height:50px;
+    background:olive;
+}
+nav ul{
+    list-style: none;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li{
+    float:left;
+
+}
+main{
+    height: 400px;
+    width: 750px;
+    background: darkseagreen;
+}
+#lado_izquierdo{
+    width: 150px;
+    height: 400px;
+    background:lightblue;
+    float: left;
+
+}
+article{
+    width: 500px;
+    height: 400px;
+    background: whitesmoke;
+    float: left;
+}
+#ladoderecho{
+    width: 100px;
+    height: 400px;
+    background:lightblue;
+    float: left;
+    
+}
+footer{
+    height: 50px;
+    background:peachpuff;
+}

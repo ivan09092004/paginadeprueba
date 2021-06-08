@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    font-family: sans-serif;
+    }
+    
+    .buttons {
+     display: flex; 
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: column;
+    
+    }
+    
+    .buttons > *{
+    display: inline-block; 
+    color:white; 
+    background-color: red; 
+    box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+    
+    }
+    
+    .btn-px {
+    font-size: 80px;
+    
+    }
+    
+    .btn-rem {
+        font-size: 5rem;
+    }
